@@ -2,7 +2,7 @@ import serverAuth from "@/libs/serverAuth";
 import { NextApiRequest, NextApiResponse } from "next";
 import primsa from '@/libs/prismadb'
 
-export default async function (
+export default async function handler (
     req: NextApiRequest,
     res: NextApiResponse
 ) {
